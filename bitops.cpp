@@ -17,7 +17,7 @@ int countOnes(unsigned int x) {
   return total;
 }
 
-bool isPowerTwo(unsigned int x) {
+bool isPowerOfTwo(unsigned int x) {
   if (countOnes(x) == 1) {
     return true;
   }
